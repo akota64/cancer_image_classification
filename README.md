@@ -4,7 +4,9 @@
 This project uses convolutional neural networks (CNNs or ConvNets) to classify a set of histopathological images known as [LC25000](https://arxiv.org/abs/1912.12142). In its current state, the model implements a simple CNN based on the standard LeNet-5 architecture, using a few stacks of Conv2D and Max Pooling layers, followed by some fully connected (Dense) layers to combine the processes and generate a final, softmax-based prediction. The model is currently trained only on lung tissue images, and only generates predictions for these data. Future implementations will extend the process to colon tissue data, and experiment with other architectures, such as Inception-v3 and ResNet, using the advent of transfer learning. 
 
 ## Dataset Information
-The LC25000 dataset includes images of lung tissue under 3 classes (benign, squamous cell carcinoma, lung adenocarcinoma) and colon tissue under 2 classes (benign, colon adenocarcinoma). The images are already appropriately scaled and have been specifically prepared for use by ML/DL/AI scientists. This has made life very easy, but has taken from the experience of struggling with the data.  
+The LC25000 dataset includes images of lung tissue under 3 classes (benign, squamous cell carcinoma, lung adenocarcinoma) and colon tissue under 2 classes (benign, colon adenocarcinoma). The images are already appropriately scaled and have been specifically prepared for use by ML/DL/AI scientists. This has made life very easy, but has taken from the experience of struggling with the data.
+
+The full dataset is downloadable via torrent from [Academic Torrents](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af).
   
 ## Current State
 The project currently uses the following CNN architecture:
